@@ -1,0 +1,135 @@
+Google Classroom
+Classroom
+DBMS LAB (FALL 2023)
+DM Section
+Home
+Calendar
+Enrolled
+To-do
+F
+FA23 - ORGANIZATIONAL BEHAVIOUR (MG-4340)
+DM (4th Semester SE)
+S
+Software Requirements Engineering Fall 2023 CS3130
+AM
+F
+FA23 CS-3170 Business Process Engineering
+AM
+F
+FA23 CS4121 Software Construction and Development
+AM
+D
+DBMS LAB (FALL 2023)
+DM Section
+D
+DBMS (FALL 2023)
+DM Section
+P
+Probability and Statistics (MT2300)
+BSCS III (Morning)
+[
+[CS3110] SE-SP23
+BM & CM
+S
+Software Engineering Lab
+CM [BS(CS)]
+[
+[SS2310] Principles of Sociology Spring 2023
+I
+Internship and Placement
+SP22
+D
+Discrete Structures (DM)
+DM
+B
+BS-SE
+DM
+O
+OBJECT ORIENTED PROGRAMMING
+DM
+C
+Calculus and Analytical Geom.
+DM
+I
+ISLAMIC STUDIES
+DM OLD
+P
+POM SP22(SE)
+Archived classes
+Settings
+Lab_Task_4
+Hira Siddiqui
+•
+Yesterday (Edited Yesterday)
+10 points
+Due 11:59 PM
+use [orgainzation]
+
+table[employee history]
+empid pk,
+empname not null,
+designation not null,
+salary>18000,
+dob not null,
+department not null,
+joiningdate getdate(),
+country not null,
+city default 'plz fill'
+gender,
+qualifcation not null,
+phoneno uk,
+cnic uk,
+email uk
+
+-Insert at least 10 rows
+Class comments
+Your work
+Assigned
+
+AREEBA_HANIF_SP22-BSSE-0041.sql
+SQL
+
+lab_4_ss.docx
+Word
+
+LB_TASK_4_QUERY.txt
+Text
+
+QUERIES_LAB_4.sql
+SQL
+Originality reports
+
+Text from submissions will be compared to existing text on the web. Learn more
+
+Work cannot be turned in after the due date
+Private comments
+create database lab4
+
+
+create table lab4.dbo.records (
+id int primary key,
+name varchar(40) not null,
+lname varchar(40),
+program varchar(40),
+age tinyint default 0,
+email varchar(45) unique default 'plz enter your cnic',
+cnic varchar(45) unique,
+salary money,
+
+
+
+)
+
+select * from lab4.dbo.records
+
+insert into lab4.dbo.records (id,name,lname,age,program,email,cnic) values (1,'areeba','hanif',20,'bsse','abc@gmail.com','42757555-98');
+insert into lab4.dbo.records (id,name,lname) values (2,'areeba','hanif');
+insert into lab4.dbo.records (id,name,lname,email,cnic) values (3,'areeba','hanif','sp22bsse0041@maju.edu.pk','42000-646353-78');
+insert into lab4.dbo.records (id,name,lname,email,cnic) values (4,'areeba','hanif','sp22bsse0051@maju.edu.pk','42000-646353-99');
+insert into lab4.dbo.records (id,name,lname,email,cnic) values (6,'areeba','hanif','sp22bsse0061@maju.edu.pk','42000-646353-48');
+insert into lab4.dbo.records (id,name,lname,email,cnic) values (7,'areeba','hanif','sp22bsse0071@maju.edu.pk','42000-646353-38');
+insert into lab4.dbo.records (id,name,lname,email,cnic) values (8,'areeba','hanif','sp22bsse0081@maju.edu.pk','42000-646353-28');
+
+drop table lab4.dbo.records;
+QUERIES_LAB_4.sql
+Displaying QUERIES_LAB_4.sql.
